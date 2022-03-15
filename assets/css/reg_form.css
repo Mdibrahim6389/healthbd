@@ -1,0 +1,75 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding-bottom: 10px;
+  }
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("/img/backgroun_dorctor.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card {
+    padding: 34px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    height: 880px;
+    width: 868px;
+    margin: 29px auto;
+}
+.form-group.submitbtn.col-sm-12.flex-column.d-flex {
+    padding-left: 236px;
+    padding-top: 62px;}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0;
+    font-size: 25px;
+    padding: 0px 0px 0px 0px ;
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 20px !important;
+}
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
